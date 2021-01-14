@@ -3398,6 +3398,10 @@ static void SetupFramebuffer(int width, int height)
     }
 }
 
+Matrix GetScreenScale() {
+  return CORE.Window.screenScale;
+}
+
 // Initialize hi-resolution timer
 static void InitTimer(void)
 {

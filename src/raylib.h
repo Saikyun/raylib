@@ -1367,6 +1367,8 @@ RLAPI void SetMatrixModelview(Matrix view);                               // Set
 RLAPI Matrix GetMatrixModelview(void);                                    // Get internal modelview matrix
 RLAPI Matrix GetMatrixProjection(void);                                   // Get internal projection matrix
 
+RLAPI Matrix GetScreenScale(void);                                    // Get internal screen scale
+
 // Texture maps generation (PBR)
 // NOTE: Required shaders should be provided
 RLAPI Texture2D GenTextureCubemap(Shader shader, Texture2D map, int size);          // Generate cubemap texture from 2D texture
